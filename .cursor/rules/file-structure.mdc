@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### `Resources/`
+- **`PO/`**:  
+  Contains screen-specific Page Object files. Each screen must have its own `.robot` file defining element locators.
+
+- **`Keywords/`**:  
+  Contains modular and reusable keyword files. Group related actions per functionality (e.g., login, navigation, validations).
+
+- **`Common.robot`**:  
+  A centralized file for generic keywords used across multiple test cases and screens.
+
+### `Tests/`
+- Each screen/module must have its own dedicated test case file.
+- Naming should reflect the screen's purpose to aid quick identification.
+
+### `Results/`
+- Stores Robot Framework’s output files (`output.xml`, `log.html`, `report.html`, etc.)
+
+- Each test run result should be saved here.
