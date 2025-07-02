@@ -63,3 +63,9 @@ project-root/
 - Reuse common keywords via `Common.robot` to avoid duplication.
 - Keep Page Object files focused on locators only; all actions should be in keyword files.
 - Store one `.robot` file per screen for both PO and test case to enforce modularity.
+
+
+## General Project Rules
+
+1. "ID" should always be used as element locator
+2. "xpath" should be used in case "ID" not found
